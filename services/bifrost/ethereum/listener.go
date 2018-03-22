@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/stellar/go/services/bifrost/common"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/services/bifrost/common"
+	"github.com/keybase/stellar-org/support/errors"
+	"github.com/keybase/stellar-org/support/log"
 )
 
 func (l *Listener) Start(rpcServer string) error {

@@ -3,9 +3,9 @@ package horizon
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/resource"
-	"github.com/stellar/go/services/horizon/internal/resource/base"
-	"github.com/stellar/go/services/horizon/internal/render/hal"
+	"github.com/keybase/stellar-org/services/horizon/internal/resource"
+	"github.com/keybase/stellar-org/services/horizon/internal/resource/base"
+	"github.com/keybase/stellar-org/services/horizon/internal/render/hal"
 )
 
 func TestAssetsActions(t *testing.T) {

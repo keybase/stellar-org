@@ -5,7 +5,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/keybase/stellar-org/services/horizon/internal/test"
 )
 
 func TestDefaultSubmissionList(t *testing.T) {

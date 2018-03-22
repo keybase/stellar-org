@@ -3,7 +3,7 @@ package bitcoin
 import (
 	"math/big"
 
-	"github.com/stellar/go/services/bifrost/common"
+	"github.com/keybase/stellar-org/services/bifrost/common"
 )
 
 func (t Transaction) ValueToStellar() string {

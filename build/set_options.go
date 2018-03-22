@@ -1,8 +1,8 @@
 package build
 
 import (
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/support/errors"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 // SetOptions groups the creation of a new SetOptions with a call to Mutate.

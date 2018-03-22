@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/services/horizon/internal/ledger"
+	"github.com/keybase/stellar-org/services/horizon/internal/test"
+	"github.com/keybase/stellar-org/services/horizon/internal/toid"
+	"github.com/keybase/stellar-org/support/render/problem"
+	"github.com/keybase/stellar-org/xdr"
 	"github.com/zenazn/goji/web"
 )
 
@@ -241,7 +241,7 @@ func TestGetPageQuery(t *testing.T) {
 	_ = action.GetPageQuery()
 	tt.Assert.Error(action.Err)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/372
+	// regression: https://github.com/keybase/stellar-org/services/horizon/internal/issues/372
 	// (limit of 0 turns into 10)
 	makeAction("/?limit=0", nil)
 	_ = action.GetPageQuery()

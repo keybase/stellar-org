@@ -10,7 +10,7 @@ import (
 
 func TestBuild(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Package: github.com/stellar/go/build")
+	RunSpecs(t, "Package: github.com/keybase/stellar-org/build")
 }
 
 // ExampleTransactionBuilder creates and signs a simple transaction, and then

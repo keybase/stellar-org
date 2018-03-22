@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-chi/chi"
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/support/log"
 	"github.com/tylerb/graceful"
 	"golang.org/x/net/http2"
 )

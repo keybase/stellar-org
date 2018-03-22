@@ -1,7 +1,7 @@
 package horizon
 
 import (
-	"github.com/stellar/go/support/render/problem"
+	"github.com/keybase/stellar-org/support/render/problem"
 )
 
 // NotFoundAction renders a 404 response

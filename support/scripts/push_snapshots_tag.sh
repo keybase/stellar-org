@@ -9,7 +9,7 @@ else
     git config --global user.email "builds@travis-ci.com"
     git config --global user.name "Travis CI"
     git tag -d snapshots || true
-    git push --delete -q https://$GITHUB_OAUTH_TOKEN@github.com/stellar/go snapshots || true
+    git push --delete -q https://$GITHUB_OAUTH_TOKEN@github.com/keybase/stellar-org snapshots || true
     git tag snapshots -a -m "Generated snapshots from TravisCI for build $TRAVIS_BUILD_NUMBER on $(date --utc +'%F-%T')"
-    git push -q https://$GITHUB_OAUTH_TOKEN@github.com/stellar/go --tags
+    git push -q https://$GITHUB_OAUTH_TOKEN@github.com/keybase/stellar-org --tags
 fi

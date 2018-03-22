@@ -3,7 +3,7 @@ package horizon
 import (
 	"log"
 
-	"github.com/stellar/go/services/horizon/internal/ingest"
+	"github.com/keybase/stellar-org/services/horizon/internal/ingest"
 )
 
 func initIngester(app *App) {

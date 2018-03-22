@@ -4,7 +4,7 @@ package codes
 
 import (
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 // ErrUnknownCode is returned when an unexepcted value is provided to `String`

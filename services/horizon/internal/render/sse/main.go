@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/support/log"
 	"golang.org/x/net/context"
 )
 

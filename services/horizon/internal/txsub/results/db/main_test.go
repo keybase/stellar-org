@@ -3,9 +3,9 @@ package results
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/core"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/history"
+	"github.com/keybase/stellar-org/services/horizon/internal/test"
 )
 
 func TestResultProvider(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/bifrost/bitcoin"
-	"github.com/stellar/go/services/bifrost/database"
-	"github.com/stellar/go/services/bifrost/queue"
-	"github.com/stellar/go/services/bifrost/sse"
+	"github.com/keybase/stellar-org/services/bifrost/bitcoin"
+	"github.com/keybase/stellar-org/services/bifrost/database"
+	"github.com/keybase/stellar-org/services/bifrost/queue"
+	"github.com/keybase/stellar-org/services/bifrost/sse"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 )

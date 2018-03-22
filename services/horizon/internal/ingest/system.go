@@ -1,13 +1,13 @@
 package ingest
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	herr "github.com/stellar/go/services/horizon/internal/errors"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/log"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/core"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/history"
+	herr "github.com/keybase/stellar-org/services/horizon/internal/errors"
+	"github.com/keybase/stellar-org/services/horizon/internal/ledger"
+	"github.com/keybase/stellar-org/services/horizon/internal/log"
+	"github.com/keybase/stellar-org/services/horizon/internal/toid"
+	"github.com/keybase/stellar-org/support/errors"
 )
 
 // Backfill ingests history in reverse chronological order, from the current
@@ -208,7 +208,7 @@ func (i *System) runOnce() {
 		if rec := recover(); rec != nil {
 			err := herr.FromPanic(rec)
 			log.Errorf("import session panicked: %s", err)
-			errors.ReportToSentry(err, nil)
+			herr.ReportToSentry(err, nil)
 		}
 	}()
 

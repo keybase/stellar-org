@@ -7,7 +7,7 @@ package reap
 import (
 	"time"
 
-	"github.com/stellar/go/support/db"
+	"github.com/keybase/stellar-org/support/db"
 )
 
 // System represents the history reaping subsystem of horizon.

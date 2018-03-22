@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/log"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
+	"github.com/keybase/stellar-org/services/horizon/internal/log"
+	"github.com/keybase/stellar-org/services/horizon/internal/txsub/sequence"
 )
 
 // System represents a completely configured transaction submission system.

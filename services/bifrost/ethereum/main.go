@@ -5,8 +5,8 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/support/errors"
+	"github.com/keybase/stellar-org/support/log"
 	"github.com/tyler-smith/go-bip32"
 )
 

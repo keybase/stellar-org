@@ -11,8 +11,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
-	hlog "github.com/stellar/go/services/horizon/internal/log"
-	tdb "github.com/stellar/go/services/horizon/internal/test/db"
+	hlog "github.com/keybase/stellar-org/services/horizon/internal/log"
+	tdb "github.com/keybase/stellar-org/services/horizon/internal/test/db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"

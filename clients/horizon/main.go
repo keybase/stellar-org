@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/stellar/go/build"
-	"github.com/stellar/go/support/errors"
+	"github.com/keybase/stellar-org/build"
+	"github.com/keybase/stellar-org/support/errors"
 	"golang.org/x/net/context"
 )
 

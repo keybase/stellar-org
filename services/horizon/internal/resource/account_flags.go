@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/core"
 )
 
 func (this *AccountFlags) Populate(row core.Account) {

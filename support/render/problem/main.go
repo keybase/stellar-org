@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/support/log"
 	"golang.org/x/net/context"
 )
 
@@ -122,7 +122,7 @@ var ServerError = P{
 	Detail: "An error occurred while processing this request.  This is usually due " +
 		"to a bug within the server software.  Trying this request again may " +
 		"succeed if the bug is transient, otherwise please report this issue " +
-		"to the issue tracker at: https://github.com/stellar/go/services/horizon/internal/issues." +
+		"to the issue tracker at: https://github.com/keybase/stellar-org/services/horizon/internal/issues." +
 		" Please include this response in your issue.",
 }
 

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
-	. "github.com/stellar/go/build"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/horizon/internal/txsub"
+	. "github.com/keybase/stellar-org/build"
+	"github.com/keybase/stellar-org/keypair"
+	"github.com/keybase/stellar-org/services/horizon/internal/txsub"
 	"golang.org/x/net/context"
 )
 

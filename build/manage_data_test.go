@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 var _ = Describe("ClearData", func() {

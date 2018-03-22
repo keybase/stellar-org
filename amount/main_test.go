@@ -3,8 +3,8 @@ package amount_test
 import (
 	"testing"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/amount"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 var Tests = []struct {

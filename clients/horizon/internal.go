@@ -8,7 +8,7 @@ import (
 	"regexp"
 
 	"github.com/manucorporat/sse"
-	"github.com/stellar/go/support/errors"
+	"github.com/keybase/stellar-org/support/errors"
 )
 
 var endEvent = regexp.MustCompile("(\r\n|\r|\n){2}")

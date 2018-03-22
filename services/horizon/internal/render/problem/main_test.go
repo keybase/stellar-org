@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/stellar/go/services/horizon/internal/context/requestid"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/keybase/stellar-org/services/horizon/internal/context/requestid"
+	"github.com/keybase/stellar-org/support/render/problem"
 	"golang.org/x/net/context"
 )
 

@@ -3,7 +3,7 @@ package xdr_test
 import (
 	"testing"
 
-	. "github.com/stellar/go/xdr"
+	. "github.com/keybase/stellar-org/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

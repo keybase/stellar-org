@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 // AssetsForAddress loads `dest` as `[]xdr.Asset` with every asset the account

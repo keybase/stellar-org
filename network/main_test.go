@@ -3,7 +3,7 @@ package network
 import (
 	"testing"
 
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

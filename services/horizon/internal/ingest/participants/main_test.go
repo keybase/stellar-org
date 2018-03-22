@@ -3,9 +3,9 @@ package participants
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2/core"
+	"github.com/keybase/stellar-org/services/horizon/internal/test"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 func TestForOperation(t *testing.T) {

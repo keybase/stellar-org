@@ -7,8 +7,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/keybase/stellar-org/support/errors"
+	"github.com/keybase/stellar-org/support/http/httptest"
 	"golang.org/x/net/context"
 )
 
@@ -58,7 +58,7 @@ func ExampleClient_SubmitTransaction() {
 
 func TestHorizon(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Package: github.com/stellar/go/horizon")
+	RunSpecs(t, "Package: github.com/keybase/stellar-org/horizon")
 }
 
 var _ = Describe("Horizon", func() {

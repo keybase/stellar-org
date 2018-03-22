@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/stellar/go/services/horizon/internal/txsub"
+	"github.com/keybase/stellar-org/services/horizon/internal/txsub"
 	"golang.org/x/net/context"
 )
 

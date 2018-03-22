@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/stellar/go/support/errors"
+	"github.com/keybase/stellar-org/support/errors"
 )
 
 // Queue adds `seq` to the load queue for the cache.

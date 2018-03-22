@@ -3,8 +3,8 @@ package stellar
 import (
 	"sync"
 
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/support/log"
+	"github.com/keybase/stellar-org/clients/horizon"
+	"github.com/keybase/stellar-org/support/log"
 )
 
 // AccountConfigurator is responsible for configuring new Stellar accounts that

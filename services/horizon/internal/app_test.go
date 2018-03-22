@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
+	"github.com/keybase/stellar-org/services/horizon/internal/test"
+	"github.com/keybase/stellar-org/services/horizon/internal/render/sse"
 )
 
 func TestNewApp(t *testing.T) {

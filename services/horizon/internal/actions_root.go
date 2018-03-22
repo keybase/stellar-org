@@ -1,9 +1,9 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/resource"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/keybase/stellar-org/services/horizon/internal/ledger"
+	"github.com/keybase/stellar-org/services/horizon/internal/resource"
+	"github.com/keybase/stellar-org/support/render/hal"
 )
 
 // RootAction provides a summary of the horizon instance and links to various

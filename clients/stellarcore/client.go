@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/keybase/stellar-org/support/errors"
 )
 
 // Client represents a client that is capable of communicating with a

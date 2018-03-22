@@ -1,7 +1,7 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/log"
+	"github.com/keybase/stellar-org/services/horizon/internal/log"
 )
 
 // InitFn is a function that contributes to the initialization of an App struct

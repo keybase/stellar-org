@@ -2,8 +2,8 @@ package history
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/services/horizon/internal/db2"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 // Accounts provides a helper to filter rows from the `history_accounts` table

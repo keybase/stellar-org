@@ -1,8 +1,8 @@
 package simplepath
 
 import (
-	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/xdr"
+	"github.com/keybase/stellar-org/services/horizon/internal/paths"
+	"github.com/keybase/stellar-org/xdr"
 )
 
 // search represents a single query against the simple finder.  It provides

@@ -3,10 +3,10 @@ package reap
 import (
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/errors"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/log"
-	"github.com/stellar/go/services/horizon/internal/toid"
+	"github.com/keybase/stellar-org/services/horizon/internal/errors"
+	"github.com/keybase/stellar-org/services/horizon/internal/ledger"
+	"github.com/keybase/stellar-org/services/horizon/internal/log"
+	"github.com/keybase/stellar-org/services/horizon/internal/toid"
 )
 
 // DeleteUnretainedHistory removes all data associated with unretained ledgers.
